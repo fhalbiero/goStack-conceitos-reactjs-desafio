@@ -13,9 +13,18 @@ div {
   margin: 20px;
 }
 
+div ul {
+  width: 100%;
+  padding: 2rem 2rem 0 0;
+}
+
 div li {
+  background: #e7ebeb;
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
 div li + li {
